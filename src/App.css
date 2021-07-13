@@ -1,0 +1,39 @@
+body{
+  background-color: palevioletred;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+
+.queries{
+  display: flex;
+}
+
+button{
+  margin: 5px;
+  background-color: aqua;
+}
+
+button:hover{
+  background-color: beige;
+}
+
+.one{
+  float: left;
+  margin: 50px;
+}
+
+.two{
+  float: center;
+  margin: 50px;
+}
+
+.three{
+  float: right;
+  margin: 50px;
+}
