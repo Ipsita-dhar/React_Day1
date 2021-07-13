@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("image/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:initial;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-height: 50vh;
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+.countdown-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.big-text{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
